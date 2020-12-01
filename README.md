@@ -4,6 +4,18 @@
 - Docker
 - Docker Compose
 ## Deployments
+Clone the repository
+
+HTTPS
+```sh
+git clone https://github.com/NahimRouidjali/PSn00bSDK_Docker.git
+```
+SSH
+
+```sh
+git clone git@github.com:NahimRouidjali/PSn00bSDK_Docker.git
+```
+
 Start the container
 ```sh
 docker-compose up -d
