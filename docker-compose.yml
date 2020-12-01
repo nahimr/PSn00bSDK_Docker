@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  mipsel:
+    container_name: psn00b_container
+    image: psn00bsdk_docker_mipsel:latest
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./psxproj:/root
+      - ./docker/mipsel/elf32elmip.x:/usr/local/mipsel-unknown-elf/mipsel-unknown-elf/lib/ldscripts/elf32elmip.x
+    working_dir: /root
